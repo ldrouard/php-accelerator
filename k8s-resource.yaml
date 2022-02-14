@@ -1,0 +1,10 @@
+apiVersion: accelerator.apps.tanzu.vmware.com/v1alpha1
+kind: Accelerator
+metadata:
+  name: php-webapp
+spec:
+  git:
+    url: https://github.com/ldrouard/php-accelerator
+    #url: https://git.tools.paas-apps.com/pub/tanzu/accelerators/orange-php
+    ref:
+      branch: main

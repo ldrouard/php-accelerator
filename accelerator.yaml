@@ -1,0 +1,15 @@
+accelerator:
+  displayName: PHP by Orange
+  description: PHP Accelerator by Orange
+  iconUrl: https://raw.githubusercontent.com/simple-starters/icons/master/icon-php.png
+  tags:
+  - php
+  - orange
+  options:
+  - name: optionName
+    label: Nice Label
+    display: true
+    defaultValue: ""
+engine:
+  include:
+  - '**'
